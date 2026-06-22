@@ -4,19 +4,6 @@ A retrieval-augmented generation (RAG) document Q&A bot built with Python.
 It indexes PDF, TXT, and DOCX documents into ChromaDB, then answers questions
 with Google Gemini embeddings and generation.
 
-## Project Status
-
-- ✅ Project scaffold is present
-- ✅ `.gitignore` exists
-- ✅ `.env.example` exists
-- ✅ `requirements.txt` exists
-- ✅ Data sources are present in `data/`
-- ✅ Generated `data/coffee_history.pdf`
-- ✅ Generated `data/renewable_energy.pdf`
-- ✅ Generated `data/solar_system.docx`
-- ✅ Core modules exist under `src/`
-- ✅ Entry points exist: `index.py`, `cli.py`, `app.py`
-- ⚠ Git initialization not completed in this environment because the `git` CLI is not installed
 
 ## Setup
 
@@ -102,11 +89,5 @@ streamlit run app.py
 ## Notes
 
 - `chroma_db/` stores persistent vector data in `chroma.sqlite3`.
-- The project is ready to use, but you must have a valid Gemini API key.
-- If you want version control, install Git and run:
 
-```bash
-git init
-``` 
 
-Then add and commit files as needed.
